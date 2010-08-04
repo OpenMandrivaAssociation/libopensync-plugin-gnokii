@@ -1,6 +1,6 @@
 Name: 	 	libopensync-plugin-gnokii
 Version: 	0.22
-Release: 	%{mkrel 4}
+Release: 	%{mkrel 5}
 Summary: 	Gnokii (Nokia) plugin for OpenSync synchronization framework
 License:	GPLv2+
 Group:		Office
