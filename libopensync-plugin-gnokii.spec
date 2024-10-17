@@ -4,7 +4,7 @@ Release: 	%{mkrel 6}
 Summary: 	Gnokii (Nokia) plugin for OpenSync synchronization framework
 License:	GPLv2+
 Group:		Office
-URL:		http://www.opensync.org
+URL:		https://www.opensync.org
 Source0:	http://www.opensync.org/download/releases/%{version}/%{name}-%{version}.tar.bz2
 Patch0:		libopensync-plugin-gnokii-0.22-warning.patch
 Obsoletes:	multisync-syncml
