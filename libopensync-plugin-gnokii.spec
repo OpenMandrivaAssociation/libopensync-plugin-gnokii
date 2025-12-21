@@ -9,6 +9,11 @@ Source0:	http://www.opensync.org/download/releases/%{version}/%{name}-%{version}
 Patch0:		libopensync-plugin-gnokii-0.22-warning.patch
 Obsoletes:	multisync-syncml
 Provides:	multisync-syncml
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	opensync0-devel < 0.30
 BuildRequires:	gnokii-devel
 Requires:	libopensync >= 1:%{version}
